@@ -1,0 +1,9 @@
+services:
+  web:
+    build: ./saferesale-app
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./saferesale-app:/app
+      - /app/node_modules
+    command: npm run dev
