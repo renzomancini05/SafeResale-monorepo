@@ -1,0 +1,18 @@
+# dataset e risultati: MAI su GitHub
+data/
+eval/out/
+
+# ambiente e segreti
+.env
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# pesi dei modelli scaricati
+*.pth
+*.pt
+*.onnx
